@@ -1,0 +1,487 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  background: hsl(217, 28%, 15%);
+  background-image: url(./images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 56%;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2rem 0;
+}
+
+.logo img {
+  width: 45%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: -7rem;
+}
+
+ul a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9em;
+}
+
+.Illustration-intro {
+  max-width: 70%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 0 1.5rem;
+}
+
+section p {
+  font-size: 0.8rem;
+  margin-top: -0.1em;
+  text-align: center;
+  padding: 0 2.8em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+button {
+  display: flex;
+  font-weight: 700;
+  margin: 2em auto 0 auto;
+  border-radius: 5em;
+  padding: 1.3em 6em;
+  background-color: hsl(198, 60%, 50%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
+
+/* section 2 starts here */
+.section-2 {
+  width: 85%;
+  margin: auto;
+}
+
+.services {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.service-wrapper {
+  margin: 10px 0;
+}
+.service-wrapper img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.service-desc {
+  /* width: 400px; */
+  width: 90%;
+  margin: auto;
+  line-height: 1.5rem;
+  margin-bottom: 50px;
+}
+.service-desc h2 {
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+/*Section3 starts here*/
+.section-3 {
+  width: 85%;
+  margin: 100px auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-3 img {
+  width: 100%;
+  height: auto;
+}
+.section-3-desc h1 {
+  width: 80%;
+  margin-bottom: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+.section-3-desc p {
+  margin-bottom: 25px;
+}
+.section-3-desc a {
+  color: #fff;
+  margin-right: 5px;
+}
+/*Testimonial Section*/
+/*Testimonial Section*/
+
+.testimonial-section {
+  width: 85%;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.testimonial-section::after {
+  content: url(../images/bg-quotes.png);
+  position: absolute;
+  top: -25px;
+  left: -10px;
+  z-index: -1;
+}
+.testimonial-card {
+  /* width: 385px; */
+  width: 100%;
+  height: 200px;
+  background: hsl(219, 30%, 18%);
+  padding: 15px;
+  box-shadow: 2px 2px 3px hsl(217, 27%, 20%);
+  margin-bottom: 20px;
+}
+.testimonial-desc {
+  width: 85%;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+.profile-wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.profile-desc span {
+  font-size: 14px;
+  color: #f3f3f3;
+}
+/*Sign Up section*/
+/*Sign Up section*/
+
+.sign-up-section {
+  width: 85%;
+  margin: auto;
+  height: 40vh;
+  background: hsl(219, 30%, 18%);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+  top: 50px;
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.sign-up-desc h1 {
+  margin-bottom: 15px;
+}
+.sign-up-desc {
+  width: 85%;
+  margin: auto;
+}
+.sign-up-desc p {
+  font-size: 0.875rem;
+}
+form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type='email'],
+input[type='submit'] {
+  width: 85%;
+  padding: 14px 10px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background: #fff;
+}
+input[type='submit'] {
+  background: #59d6be;
+  color: #fff;
+  margin-top: 20px;
+}
+/* Sign Up section */
+
+/*Footer section starts here*/
+/* footer{
+    width: 100%;
+    height: 120vh;
+}
+footer .logo{
+    width: 120px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    margin-bottom: 50px;
+}
+.footer-body{
+    width: 85%;
+    flex-direction: column;
+}
+.footer-body p{
+    font-size: 14px;
+    margin-bottom: 35px;
+    line-height: 1.2rem;
+}
+.about-us{
+    margin: 30px 0;
+}
+    .social-links{
+        width: 35%;
+        margin: 15px auto 0;
+    }
+.fab{
+    font-size: 10px;
+  
+}
+.footer-bottom{
+    height: 8vh;
+    font-size: 0.875rem;
+} */
+footer {
+  width: 100%;
+  height: 60vh;
+  background: hsl(216, 53%, 9%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+}
+footer .logo {
+  width: 100px;
+  padding-top: 70px;
+}
+.footer-body {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  /* display: flex;
+    justify-content: space-between; */
+}
+.location {
+  width: 350px;
+  display: flex;
+}
+li {
+  list-style: none;
+  line-height: 2rem;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+.fas {
+  margin-right: 15px;
+}
+a .fab {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url(./images/bg-curvy-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 105%;
+  }
+
+  section {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2em;
+  }
+
+  .Illustration-intro {
+    max-width: 50%;
+  }
+
+  .intro-bg {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 180%;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2em;
+  }
+
+  section {
+    min-width: 80%;
+    font-display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section p {
+    padding: 0 5em;
+  }
+
+  .Illustration-intro {
+    max-width: 40%;
+  }
+
+  .intro-bg {
+    max-width: 43%;
+  }
+
+  /* section 2 responsivnes on bigger screen */
+
+  .services {
+    width: 90%;
+    max-width: 1230px;
+    margin-top: 150px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .service-wrapper {
+    width: 400px;
+  }
+  .service-desc {
+    width: 400px;
+    margin: 0;
+  }
+
+  /* section 3 media query */
+  .section-3 {
+    width: 85%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .section-3 img {
+    width: 500px;
+    height: auto;
+  }
+  .section-3-desc {
+    width: 500px;
+  }
+  .section-3-desc h1 {
+    font-size: 2rem;
+  }
+  /*Testimonial Section*/
+
+  .testimonial-section {
+    width: 85%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .testimonial-section::after {
+    content: url(../images/bg-quotes.png);
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    z-index: -1;
+  }
+  .testimonial-card {
+    /* width: 385px; */
+    width: 340px;
+    height: 200px;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .testimonial-desc {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.3rem;
+  }
+  .profile-wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .profile-desc span {
+    font-size: 14px;
+    color: #f3f3f3;
+  }
+  /* sign up section */
+
+  .sign-up-section {
+    width: 60%;
+    margin: 70px auto 0;
+    height: 30vh;
+    top: 50px;
+  }
+  .sign-up-desc {
+    width: 80%;
+  }
+  .sign-up-desc p {
+    font-size: 1rem;
+  }
+  form {
+    margin-top: 30px;
+    flex-direction: row;
+  }
+  input[type='email'] {
+    width: 500px;
+  }
+  input[type='submit'] {
+    width: 150px;
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  /*Footer section starts here*/
+  footer {
+    width: 100%;
+    height: 40vh;
+  }
+  footer .logo {
+    width: 100px;
+    margin-left: 100px;
+  }
+  .footer-body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
